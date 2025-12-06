@@ -1,0 +1,46 @@
+.experience {
+    padding: 4rem 0 8rem 0;
+    background: white;
+    overflow: hidden;
+}
+
+.experience-scroll {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    padding: 2rem 5%;
+    flex-wrap: nowrap;
+}
+
+.experience-item {
+    flex: 1;
+    min-width: 200px;
+    max-width: 250px;
+    height: 300px;
+    position: relative;
+    border: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+.experience-img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    background: linear-gradient(135deg, #faf9f6, #f5f3f0);
+}
+
+.experience-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.95), transparent);
+    color: var(--linen);
+    font-size: 0.9rem;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 1px;
+}
