@@ -730,6 +730,10 @@ h1, h2, h3, h4, h5, h6 {
     transition: all 0.3s;
 }
 
+.mobile-logo {
+    display: none;
+}
+
 @media (max-width: 768px) {
     .hero-title {
         font-size: 2rem;
@@ -756,6 +760,17 @@ h1, h2, h3, h4, h5, h6 {
     
     .nav-links.active {
         right: 0;
+    }
+
+    .mobile-logo {
+        display: block;
+        position: absolute;
+        top: 2rem;
+    }
+
+    .mobile-logo img {
+        height: 60px;
+        width: auto;
     }
     
     .nav-links a {
